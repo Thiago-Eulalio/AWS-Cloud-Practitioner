@@ -1,0 +1,36 @@
+# RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+
+Data: 21/02/2024
+Empresa: Abstergo Industries 
+Responsável: Thiago Eulalio Reimberg Borba
+
+## Introdução
+Este relatório apresenta o processo de implementação de ferramentas na empresa Abstergo Industries , realizado por Thiago Eulalio Reimberg Borba. O objetivo do projeto foi elencar 3 serviços AWS, com a finalidade de realizar diminuição de custos imediatos.
+
+## Descrição do Projeto
+O projeto de implementação de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos específicos. A seguir, serão descritas as etapas do projeto:
+
+Etapa 1: 
+- Amazon EC2
+- Fonerce computação segura e redimencionavel
+- Criar um servidor virtual com configuração de CPU, Memória, Rede e Armazenamento e SO. Com um capacidade computacional segura e redimensionavél e só paga o que se usa, é uma ótima opção para começar e sai muito mais barato do que montar toda a infrastrutura de um Data Center, é caso precise de mais desempenho futuramente o EC2 é redimencionavel.
+
+Etapa 2: 
+- Amazon EBS - Elastic block Store
+- [Foco da ferramenta]
+- Para complementar o EC2 o EBS é projetado para trabalhar com o EC2. Um volume para anexar a instância do EC2 para armazenar os dados, para ter consistência dos dados independente do ciclo de vida instância EC2. Com uma configuração com SSD que deixa mais rápido com um tipo de uso geral.
+
+Etapa 3: 
+- Amazon Aurora
+- Armazenamento de Dados Relacionais
+- Serviço para armazenamento de dados relacionais, o Amazon Aurora não precisa de um DBA dedicado cuidando do Banco. Podendo colocar o Amazon Aurora para trabalhar com o Postgres. Não é preciso se preocupar, o Amazon Aurora é autogerenciavel e com o preço de 1/10 de outros serviços.
+
+
+
+## Conclusão
+A implementação de ferramentas na empresa Abstergo Industries tem como esperado prover um servidor virtual de alta performance e escalonavél de acordo com a demanda que o cliente necessita com o Amazon EC2, com a ferramenta Amazon EBS o cliente vai poder armazer seu arquivos com segurança e com o Amazon Aurora o cliente armaze seus dados sem se preocupar com o gerenciamento do banco de dados, com um custo benificio muito maior do que montar seu próprio datacenter e podendo aumentar e diminuir suas configurações com rapidez e segurança de acordo com sua demanda, o que aumentará a eficiência e a produtividade da empresa. Recomenda-se a continuidade da utilização das ferramentas implementadas e a busca por novas tecnologias que possam melhorar ainda mais os processos da empresa.
+
+
+Assinatura do Responsável pelo Projeto:
+
+Thiago Eulalio Reimberg Borba
